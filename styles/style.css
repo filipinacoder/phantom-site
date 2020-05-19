@@ -1,0 +1,89 @@
+* {
+	font-family: 'Source Code Pro', sans-serif;
+	color: #585858;
+}
+
+.logo {
+	display: block;
+	width: 2em;
+	height: 2em;
+}
+
+.sidemenu ul li {
+	list-style: none;
+}
+
+.sidemenu ul li a {
+	text-decoration: none;
+}
+
+.burger-menu {
+	opacity: 1;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: #333;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+main {
+	margin-bottom: 96px;
+}
+
+main div {
+	margin-left: 33.5px;
+	margin-right: 33.5px;
+}
+
+.hero-header h1 {
+	font-size: 2.75em;
+	font-weight: 700;
+	line-height: 1.3;
+	margin: 0 0 1em 0;
+	letter-spacing: -0.035em;
+}
+
+.articles {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+}
+
+.articles article {
+	list-style: none;
+	flex: 0 0 33.333333%;
+}
+
+.articles article a {
+	text-decoration: none;
+}
+
+footer {
+	background-color: #f6f6f6;
+}
+
+footer .icons li {
+	list-style: none;
+}
+
+footer .icons li a {
+	text-decoration: none;
+}
+
+footer .copyright {
+	display: flex;
+}
+
+.copyright ul li {
+	justify-content: space-between;
+	list-style: none;
+}
+
+.copyright ul li a {
+	text-decoration: none;
+}
